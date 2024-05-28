@@ -192,44 +192,6 @@
       {% include "partials/tabs.html" %}
       {% endif %}
       {% endblock %}
-
-      {% if page and page.url and "en/" in page.url%}
-      <div class="donation">
-        <h5 class="don-sub">Helping who helps you </h5>
-        <h3 class="don-title">
-          Support this work
-        </h3>
-        <a href="{{donation_link}}" class="don-link">
-          Donation
-        </a>
-      </div>
-      {% endif %}
-      {% if page and page.url and "es/" in page.url%}
-      <div class="donation">
-        <a href="https://github.com/DiMiTriFrog" class="don-translate" target="_blank">
-          Traduccion: Dimitri
-        </a>
-        <h5 class="don-sub">Ayudando a quien te ayuda. </h5>
-        <h3 class="don-title">
-          Apoya este proyecto con una donación
-        </h3>
-        <a href="{{donation_link}}" class="don-link">
-          Donación
-        </a>
-      </div>
-      {% endif %}
-      {% if page and page.url and "pt/" in page.url%}
-      <div class="donation">
-        <h5 class="don-sub">Ajudando quem te ajuda </h5>
-        <h3 class="don-title">
-          Apoie este trabalho
-        </h3>
-        <a href="{{donation_link}}" class="don-link">
-          Doação
-        </a>
-      </div>
-      {% endif %}
-
     </div>
     <main class="md-main" data-md-component="main">
       <div class="md-main__inner md-grid">
